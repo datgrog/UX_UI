@@ -17,12 +17,25 @@ a {
   }
 }
 
-#menu {
+.row {
+  overflow: hidden;
+}
+
+div#menu {
+  margin-bottom: -99999px;
+  padding-bottom: 99999px;
+}
+
+#menu-button {
   cursor: pointer;
   height: 30px;
   width: 30px;
   background-color: #FFFFFF;
   mask: url(app/assets/icons/menu.svg) no-repeat 100% 100%;
+}
+
+#menu {
+  background: linear-gradient(to bottom, #59608c 0%,#90879c 50%,#ddc0b2 100%);
 }
 
 .main-container {
